@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+</head>
+
+<body>
+    <h1> Formulario</h1>
+    <hr>
+    <form>
+        <label for="pnome">Primeiro Nome</label><br>
+        <input type="text" id="pnome" name="pnome"><br><br>
+        <label for="ultimoN">Ultimo nome</label><br>
+        <input type="text" id="ultimoN" name="ultimoN">
+        <hr><br>
+        <input type="radio" id="botao1" name="sexos" value="Masculino">
+        <label for="botao1">Masculino</label> <br>
+
+        <input type="radio" id="botaof" name="sexos" value="feminino">
+        <label for="botaof">Feminino</label> <br>
+        <hr>
+        <fieldset>
+            <legend> Comidas Favoritas </legend>
+            <input type="checkbox" id="caixa1" name="checks" value="hamburguer">
+            <label for="caixa1">Hamburguer</label><br>
+
+            <input type="checkbox" id="caixa2" name="fruta2" value="Frutinhas">
+            <label for="checks">Frutinhas</label><br>
+        </fieldset>
+        <br>
+        <input type="button" onclick="alert('Olá Mundo')" value="Clique aqui!">
+        <hr>
+        <label for="cor"> Escolha uma cor </label>
+        <input type="color" id="cores" name="cor">
+        <hr>
+        <label for="data">Veja a Data </label>
+        <input type="date" id="datadehj" name="data">
+        <hr> <br>
+        <label type="dandhor">Horario e Data </label>
+        <input type="datetime-local" id="horaanddate" name="dandhor">
+        <br><br> <label type="meseano">Coloco seu mes e ano</label><br>
+        <input type="month" id="meseano" name="meseano">
+
+        <br> <label for="email">Seu melhor Email</label>
+        <br><br> <input type="email" id="email" name="email" value="Email">
+
+        <br><br>
+        <input type="image"
+            src="https://w7.pngwing.com/pngs/824/920/png-transparent-index-finger-computer-icons-finger-snapping-cursor-miscellaneous-cdr-hand-thumbnail.png"
+            alt="Dedao" width="48px">
+        <br> <label type="arquivos">Selecione o arquivo</label><br>
+
+        <input type="file" id="selec" name="arquivos">
+        <hr>
+        <br><label type="numero">Escolha um numreo de um a dez</label>
+        <input type="number" id="numero" name="numero" min="1" max="10">
+
+        <hr>
+        <label for="carros">Escolha um modelo de carro</label>
+        <select id="carrospescolha" name="carros">
+            <option value="mitsubishi">mitsubishi</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Nissan">Nissan</option>
+        </select>
+        <hr><br>
+
+        <label for="carros">EScolha um modelo de carro</label>
+        <select id="carrospescolha" name="carros" size="2">
+            <option value="mitsubishi">mitsubishi</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Nissan">Nissan</option>
+        </select>
+
+        <br> <br><textarea name="mensagem" rols="6" cols="40">Digite aqui o que achou</textarea>
+
+
+    </form>
+
+
+</body>
+
+</html>
