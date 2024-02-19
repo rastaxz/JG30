@@ -5,12 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario </title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+    
+       h1{color:yellow;
+        font-size: 20px;
+
+
+        
+
+       }
+    </style>
 </head>
 
 <body>
-    <h1> Formulario</h1>
+    
+    <h1> FORMULARIO</h1>
     <hr>
-    <form>
+    <form 
+        oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
         <label for="pnome">Primeiro Nome</label><br>
         <input type="text" id="pnome" name="pnome"><br><br>
         <label for="ultimoN">Ultimo nome</label><br>
@@ -64,20 +78,41 @@
             <option value="mitsubishi">mitsubishi</option>
             <option value="Subaru">Subaru</option>
             <option value="Nissan">Nissan</option>
+            <option value="Jeep">Jeep</option>
         </select>
         <hr><br>
 
-        <label for="carros">EScolha um modelo de carro</label>
-        <select id="carrospescolha" name="carros" size="2">
+        <label for="carros">Escolha um modelo de carro</label>
+        <select id="carrospescolha" name="carros" size="3">
             <option value="mitsubishi">mitsubishi</option>
             <option value="Subaru">Subaru</option>
             <option value="Nissan">Nissan</option>
+            <option value="Jeep">Jeep</option>
         </select>
 
         <br> <br><textarea name="mensagem" rols="6" cols="40">Digite aqui o que achou</textarea>
+<br><br>
+        <input type="range" name="x" id="a" value="50">
+        100+
+        <input type="number" name="x" id="b" value="50">=
+        <output name="x" for="a b"></output>
+        <br>
+        <input type="submit">
+<br><br>
+    <video width="50%" controls muted>
+        <source src="golazo.mp4" type="video/mp4"> 
+    </video>    
+   
+    <br><br><br>
 
 
     </form>
+
+
+
+    <div id="principal">
+        <h2> Texto teste</h2>
+    </div>
 
 
 </body>
