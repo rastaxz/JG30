@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teste.css">
+    <title>Layout Padrao</title>
+    <style>
+        #cabecalho {
+            display: flex;
+            background-color: yellow;
+            width: auto;
+            height: 100px;
+            justify-content: space-between;
+        }
+
+        #navegacao {
+            background-color: blue;
+            width: 20%;
+            height: 600px;
+        }
+
+
+        #promocoes {
+            background-color: chocolate;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #main {
+            background-color: silver;
+            display: flex;
+        }
+
+        #produtos {
+            background-color: darkcyan;
+            height: 300px;
+            width: 100%;
+            justify-content: space-around;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+
+        section {
+            background-color: darkolivegreen;
+            display: flex;
+            width: 80%;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .fotos {
+            background-color: darkred;
+            width: 50px;
+            height: 60px;
+        }
+
+        .f1 {
+            background-color: black;
+            width: 70px;
+            height: 60px;
+            margin: 50px;
+        }
+
+        #logo {
+            color: orange;
+            justify-content: left;
+            width: 5px;
+            height: 5px;
+        }
+
+        #center {
+            justify-content: center;
+            display: flex;
+        }
+
+        #login {
+            display: flex;
+            background-color: black;
+
+
+        }
+
+        #lista {
+            color: white;
+            justify-content: center;
+
+        }
+
+        nav ul {
+            color: white;
+            list-style-type: none;
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #listamenu{
+            display:flex;
+            list-style-type: none;
+            font-size: 30px;
+
+        }
+        li{margin:5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--O cabecalho da minha pagina-->
+    <header id="cabecalho">
+        <div id="logo">
+            <h1>Drop Sneakers</h1>
+            <img id="tenis" src="tenis.png">
+        </div>
+
+
+        <ul id="listamenu">
+            <li>Teste1</li>
+            <li>Tste2</li>
+            <li>Teste3</li>
+        </ul>
+
+        <div id="login">
+            <h3>login</h3>
+        </div>
+    </header>
+
+    <!--div onde vai envolver todo mundo-->
+    <div id="main">
+        <!--Barra de navegação da pagina-->
+        <nav id="navegacao">
+            <div id="lista">
+                <ul>
+                    <li><a href="https://cdn.awsli.com.br/600x450/1059/1059368/produto/92047160/74a79c2463.jpg">Air
+                            Jordan 1</a></li>
+                    <li>Tn</li>
+                    <li>95</li>
+                    <li><a
+                            href="https://images.stockx.com/images/Anta-Shock-Wave-5-Kyrie-Irving-First-Year.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1695365444">Kyrie</a>
+                    </li>
+                    <li>Lebron</li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <section>
+
+            <div id="promocoes">
+                <div class="fotos"></div>
+                <div class="fotos"></div>
+                <div class="fotos"></div>
+                <div class="fotos"></div>
+                <div class="fotos"></div>
+            </div>
+
+            <div id="produtos">
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+                <div class="f1"></div>
+            </div>
+
+    </div>
+
+    </section>
+</body>
+
+</html>
