@@ -1,0 +1,6 @@
+#borda{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    border:1px solid black;
+}

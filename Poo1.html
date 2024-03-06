@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POO</title>
+</head>
+
+<body>
+    <h1> Orientação a Objetos </h1>
+    <label for="nome">Nome: </label>
+    <input type="text" id="nome">
+    <br><br>
+    <label for="sobrenome">Sobrenome: </label>
+    <input type="text" id="sobrenome">
+    <br><br>
+    <label for="altura">Altura: </label>
+    <input type="text" id="altura">
+    <br><br>
+    <label for="idade">Idade: </label>
+    <input type="text" id="idade"><br><br>
+    <button id="cadastrar" onclick="cadastrarU()">Cadastrar Usuario</button>
+    <br><br>
+    <h3 id="informacoes"></h3>
+    <h3 id="mIdade"></h3>
+    <script src="objetos.js">
+    </script>
+
+
+    <hr>
+    <h1>Matriz de Objetos</h1>
+    <label for="nomeM">Nome: </label>
+    <input type="text" id="nomeM">
+    <br><br>
+    <label for="sobrenomeM">Sobrenome: </label>
+    <input type="text" id="sobrenomeM">
+    <br><br>
+    <label for="alturaM">Altura: </label>
+    <input type="text" id="alturaM">
+    <br><br>
+    <label for="idadeM">Idade: </label>
+    <input type="text" id="idadeM"><br><br>
+    <button id="cadastrar" onclick="cadastrarListaU()">Adicionar usuario</button>
+    <br><br>
+    <h3 id="informacoes"></h3>
+    <h3 id="mIdade"></h3>
+
+    <table border="1px" id="tabelaUsuarios">
+        <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Altura</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>Gui</td>
+            <td>18</td>
+            <td>1,80</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
