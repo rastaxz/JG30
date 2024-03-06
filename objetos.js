@@ -21,6 +21,14 @@ function cadastrarU() {
     document.getElementById("informacoes").innerHTML = " O usuario " + usuario.nome + " foi cadastrado com sucesso" + " ele possui " + usuario.idade + " anos";
     document.getElementById("mIdade").innerHTML = usuario.testeIdade();//para metodos devemos colocar o nome do metodo (a funcao) e parenteses.Dessa forma
 }
+function User1(nome, ultN, email, senha) {
+    this.nome = nome;
+    this.ultN = ultN;
+    this.email = email;
+    this.senha = senha;
+}
+
+const NOVOUSER
 
 function cadastrarListaU() {
     let tabelaUsuarios = document.getElementById("tabelaUsuarios")
@@ -36,10 +44,10 @@ function cadastrarListaU() {
     user.idade = document.getElementById("idadeM").value
 
     tabelaUsuarios.innerHTML += "<tr>"
-        + "<td>" +user.nome+ "</td>"
-        "<td>" +user.sobrenome+ "</td>"
-        "<td>" +user.altura+ "</td>"
-        "<td>" +user.idade+ "</td>"
+        + "<td>" + user.nome + "</td>"
+    "<td>" + user.sobrenome + "</td>"
+    "<td>" + user.altura + "</td>"
+    "<td>" + user.idade + "</td>"
         + "</tr>"
 
 }
