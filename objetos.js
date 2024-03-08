@@ -5,9 +5,9 @@ function cadastrarU() {
         sobrenome: "",
         idade: 0,
         altura: 0,
-        testeIdade: function () {
+        testeIdade: function () { 
             if (this.idade >= 18) {
-                return "Este usuario é maior de idade";
+                return "Este usuario é maior de idade"; //return retorna para o ultimo elemento do html
             } else {
                 return "Este usuario é menor de idade";
             }
@@ -16,7 +16,7 @@ function cadastrarU() {
     usuario.nome = document.getElementById("nome").value
     usuario.sobrenome = document.getElementById("sobrenome").value
     usuario.altura = document.getElementById("altura").value
-    usuario.idade = document.getElementById("idade").value
+    usuario.idade = document.getElementById("idade").value //.value é para inputs
 
     document.getElementById("informacoes").innerHTML = " O usuario " + usuario.nome + " foi cadastrado com sucesso" + " ele possui " + usuario.idade + " anos";
     document.getElementById("mIdade").innerHTML = usuario.testeIdade();//para metodos devemos colocar o nome do metodo (a funcao) e parenteses.Dessa forma
@@ -27,8 +27,6 @@ function User1(nome, ultN, email, senha) {
     this.email = email;
     this.senha = senha;
 }
-
-const NOVOUSER
 
 function cadastrarListaU() {
     let tabelaUsuarios = document.getElementById("tabelaUsuarios")
@@ -45,9 +43,9 @@ function cadastrarListaU() {
 
     tabelaUsuarios.innerHTML += "<tr>"
         + "<td>" + user.nome + "</td>"
-    "<td>" + user.sobrenome + "</td>"
-    "<td>" + user.altura + "</td>"
-    "<td>" + user.idade + "</td>"
+    +"<td>" + user.sobrenome + "</td>"
+    +"<td>" + user.altura + "</td>"
+    +"<td>" + user.idade + "</td>"
         + "</tr>"
 
 }

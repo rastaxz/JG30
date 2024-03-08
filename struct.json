@@ -1,0 +1,34 @@
+[
+    {
+        "nome":"tenis1",
+        "valor":"valor1",
+        "id":"identidade1"
+
+    },
+    {
+        "nome":"tenis2",
+        "valor":"valor2",
+        "id":"identidade2"
+
+    },
+    {
+        "nome":"tenis3",
+        "valor":"valor3",
+        "id":"identidade3"
+    },
+    {
+        "nome":"tenis4",
+        "valor":"valor4",
+        "id":"identidade4"
+    },
+    {
+        "nome":"tenis5",
+        "valor":"valor5",
+        "id":"identidade5"
+    },
+    {
+        "nome":"tenis6",
+        "valor":"valor6",
+        "id":"identidade6"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "usuario1",
+        "sobrenome": "sobrenome1",
+        "idade": "18",
+        "altura": "1.95"
+    },
+
+    {
+        "nome": "usuario2",
+        "sobrenome": "sobrenome2",
+        "idade": "15",
+        "altura": "1.75"
+    },
+    
+    {
+        "nome": "usuario3",
+        "sobrenome": "sobrenome3",
+        "idade": "18",
+        "altura": "1.65"
+    }
+]
